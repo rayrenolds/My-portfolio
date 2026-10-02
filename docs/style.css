@@ -44,3 +44,13 @@ img {
     background-color: #0b1f3a;
     border-radius: 5px;
 }
+
+.project-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
