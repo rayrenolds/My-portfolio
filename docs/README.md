@@ -1,19 +1,31 @@
-# My portfolio
-A personal porfolio website showcasing my work and skills as a software developer
+# My Portfolio
+
+A personal portfolio website showcasing my work and skills as a software developer.
+
 ## About
-I'm Eugene kiprono - a software developer. This is my personal portfolio site, built to show case my projects and skills
-## Features 
--Projects showcase
--About section
--Easy navigation
+I'm Eugene Kiprono, a software developer. This site shows my projects and skills.
+
+## Features
+- Home page with about and contact details
+- Projects page (`projects.html`) with:
+  - Skills with proficiency bars
+  - Project cards with a category filter (JavaScript)
+  - Contact form with client-side validation (JavaScript)
+- Easy navigation
+
 ## Built with
--HTML
--CSS
+- HTML
+- CSS
+- JavaScript
+
 ## Project structure
--index.html
--style.css
--red.jpg
-## my links 
-GitHub repo: https://github.com/rayrenolds/My-portfolio
-GitHub Pages: https://rayrenolds.github.io/My-portfolio/
-Vercel: https://my-portfolio-eugene-7417.vercel.app
+- docs/index.html
+- docs/projects.html
+- docs/style.css
+- docs/script.js
+- docs/red.jpg
+
+## Links
+- GitHub repo: https://github.com/rayrenolds/My-portfolio
+- GitHub Pages: https://rayrenolds.github.io/My-portfolio/
+- Vercel: https://my-portfolio-ii1j-gray.vercel.app/
