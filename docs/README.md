@@ -13,3 +13,7 @@ I'm Eugene kiprono - a software developer. This is my personal portfolio site, b
 -index.html
 -style.css
 -red.jpg
+## my links 
+GitHub repo: https://github.com/rayrenolds/My-portfolio
+GitHub Pages: https://rayrenolds.github.io/My-portfolio/
+Vercel: https://my-portfolio-eugene-7417.vercel.app
