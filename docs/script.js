@@ -14,3 +14,41 @@ buttons.forEach(function (button) {
         });
     });
 });
+
+const form = document.getElementById("contact-form");
+
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    document.getElementById("name-error").textContent = "";
+    document.getElementById("email-error").textContent = "";
+    document.getElementById("message-error").textContent = "";
+    document.getElementById("form-success").textContent = "";
+
+    let valid = true;
+    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (name === "") {
+        document.getElementById("name-error").textContent = "Please enter your name";
+        valid = false;
+    }
+
+    if (!pattern.test(email)) {
+        document.getElementById("email-error").textContent = "Please enter a valid email";
+        valid = false;
+    }
+
+    if (message === "") {
+        document.getElementById("message-error").textContent = "Please enter a message";
+        valid = false;
+    }
+
+    if (valid) {
+        document.getElementById("form-success").textContent = "Thank you, your message was sent!";
+        form.reset();
+    }
+});

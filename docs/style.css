@@ -71,4 +71,9 @@ img {
 .filter-buttons button:hover {
     background-color: #0a1a2e;
 }
+
+.error {
+    color: red;
+    font-size: 14px;
+}
             

@@ -93,6 +93,22 @@
                     <p>Phone: 0793479129</p>
                     <p>Instagram: <a href="https://www.instagram.com/rayrenolds" target="_blank">rayrenolds</a></p>
                     <p>LinkedIn: <a href="https://www.linkedin.com/in/rayrenolds-undefined-a2368343a" target="_blank">rayrenolds</a></p>
+                <form id="contact-form" novalidate>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                    <p class="error" id="name-error"></p>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                    <p class="error" id="email-error"></p>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message"></textarea>
+                    <p class="error" id="message-error"></p>
+
+                    <button type="submit">Send</button>
+                    <p id="form-success"></p>
+                </form>
             </section>
 
         </main>
